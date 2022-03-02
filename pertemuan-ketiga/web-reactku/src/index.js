@@ -24,7 +24,7 @@ Class.StateFullComponent extends React.Component{
 ReactDOM.render(<StateFullComponent />, document.getElementById('root'));*/
 
 ReactDOM.render(
-    <List />,
+    <Login />,
     document.getElementById('root')
   );
 
