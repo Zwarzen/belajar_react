@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { render } from '@testing-library/react';
 import HelloComponent from './component/HelloComponent';
-import Login from './login/login' 
+import Login from './login/login'
+import Lifecycle from './LifeCycle' 
 //import * as serviceWorker from './serviceWorker'
 
 /*const HelloComponent ()=> {
@@ -21,7 +22,7 @@ Class.StateFullComponent extends React.Component{
 ReactDOM.render(<StateFullComponent />, document.getElementById('root'));*/
 
 ReactDOM.render(
-    <HelloComponent/>,
+    <Lifecycle />,
     document.getElementById('root')
   );
 
