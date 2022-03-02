@@ -16,11 +16,11 @@ class List extends Component {
                     </li>
                     <li>
                         Tiga
-                        <Image linkGambar='https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sate.jpg' />
+                        <Image linkGambar='https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sate.png' />
                     </li>
                     <li>
                         Empat
-                        <Image linkGambar='https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sotolamongan.jpg' />
+                        <Image linkGambar='https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sotolamongan.png' />
                     </li>
 
                 </ol>

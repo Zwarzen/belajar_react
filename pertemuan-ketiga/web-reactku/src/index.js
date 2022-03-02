@@ -9,24 +9,21 @@ import Login from './login/login'
 import Lifecycle from './LifeCycle'
 import Img from './Image'
 import List from './List' 
+//import StateFullComponent from './container/StateFullComponent'
 //import * as serviceWorker from './serviceWorker'
 
-/*const HelloComponent ()=> {
+/*const HelloComponent()=>{
     return HelloComponent;
-}
+}*/
 
-Class.StateFullComponent extends React.Component{
+/* class StateFullComponent extends React.Component {
     render(){
-        return<p>StateFullComponent</p>
+      return <p>StateFullComponent</p>
     }
-}
+  }
+ReactDOM.render(<StateFullComponent />, document.getElementById('root'));  */
 
-ReactDOM.render(<StateFullComponent />, document.getElementById('root'));*/
-
-ReactDOM.render(
-    <Login />,
-    document.getElementById('root')
-  );
+ReactDOM.render(<Login />, document.getElementById('root')  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
