@@ -1,17 +1,14 @@
-import React, { Component } /*, { Components} */ from "react";
-//import Header from './Header';
-//import Footer from './Footer';
-import List from './List';
+import React from "react";
 
-class App extends Component{
-render() {
-    return (
-      <div>
-        <Header/>
-        <h1>Component dari Class App</h1>
-        <List/>
-        <Footer judul='Halaman Footer' nama='Risang' />
-      </div>
-    )
-  } 
-} export default App;
+const Footer = (props) => {
+    return(
+        <div>
+            <h3>Halaman Footer</h3>
+            <h3>Component ini dibuat menggunakan function, bukan class</h3>
+            <p>Nilai ini ditampilkan dari props: {props.judul}</p>
+            <p>Nama saya: {props.nama}</p>
+        </div>
+    );
+}
+
+export default Footer;
