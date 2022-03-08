@@ -23,7 +23,7 @@ import List from './List'
   }
 ReactDOM.render(<StateFullComponent />, document.getElementById('root'));  */
 
-ReactDOM.render(<Login />, document.getElementById('root')  );
+ReactDOM.render(<Lifecycle />, document.getElementById('root')  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

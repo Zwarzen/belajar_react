@@ -1,7 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import List from "./List";
 //Component menggunakan function
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header/>
+        <h1>component dari Class App</h1>
+        <List/>
+        <Footer judul = 'Halaman Footer' nama='Risang'>
+        </Footer>
+      </div>
+    )
+  }
+}
 
-const Footer = (props) => {
+/* const Footer = (props) => {
     return(
         <div>
             <h3>Halaman Footer</h3>
@@ -10,6 +26,6 @@ const Footer = (props) => {
             <p>Nama saya: {props.nama}</p>
         </div>
     );
-}
+}*/
 
 export default Footer;
