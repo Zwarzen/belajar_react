@@ -3,20 +3,29 @@ import './BlogPost.css';
 import Post from "../../component/BlogPost/post";
 
 class BlogPost extends Component{
-
     state ={
         listArtikel: []
     }
 
-    componentDidMount(){
-        fetch(
+    ambilDataDariServerAPI = () => {
+        fetch('http://localhost:3001/posts')
             .then(response => response.json())
             .then(jsonHasilAmbilDariAPI => {
                 this.setState({
                     listArtikel: jsonHasilAmbilDariAPI
                 })
+            }) 
+    }
+
+    handleHapusArtikel = (data) => {
+        fetch(`http://localhost:3001/posts/${data}`, { method: 'DELETE' })
+            .then(res => {
+                this.ambilDataDariServerAPI()
             })
-        )
+    }
+
+    componentDidMount(){
+        this.ambilDataDariServerAPI()
     }
 
     render() {
@@ -25,7 +34,7 @@ class BlogPost extends Component{
                 <h2>Daftar Artikel</h2>
                 {
                     this.state.listArtikel.map(artikel => {
-                        return <Post judul={artikel.title} isi={artikel.body}/>
+                        return <Post key={artikel.id} judul={artikel.title} isi={artikel.body} idArtikel={artikel.id} hapusArtikel={this.handleHapusArtikel}/>
                     })
                 }
             </div></>
