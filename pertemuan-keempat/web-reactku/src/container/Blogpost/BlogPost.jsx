@@ -40,7 +40,7 @@ class BlogPost extends Component{
             </div></>
         )
     }*/
-
+ 
     state = {
         listArtikel: [],
         insertArtikel: {
