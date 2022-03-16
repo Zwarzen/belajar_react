@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route, NavLink, HashRouter } from "react-router-dom";
-import Dashboard from "../container/Dashboard";
-import List from "../container/List";
-import Contact from "../container/Contact";
+import Dashboard from "./Dashboard";
+import List from "./List";
+import Contact from "./Contact";
  
 class Main extends Component {
   render() {

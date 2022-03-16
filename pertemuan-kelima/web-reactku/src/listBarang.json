@@ -1,25 +1,22 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "json-server",
-        "author": "typicode"
-      },
-      {
-        "userId": 1,
-        "id": 1647391932340,
-        "title": "pert 5 a",
-        "body": "halo boss"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "barang": [
+    {
+      "id": 1,
+      "nama": "Barang 1",
+      "stok": 200,
+      "status": "Ada"
+    },
+    {
+      "id": 2,
+      "nama": "Barang 2",
+      "stok": 150,
+      "status": "Ada"
+    },
+    {
+      "id": 3,
+      "nama": "Barang 3",
+      "stok": 140,
+      "status": "Ada"
     }
-  }
+  ]
+}
