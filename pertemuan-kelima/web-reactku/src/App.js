@@ -192,7 +192,7 @@ function Topics() {
     );
   }
 
-export default NestingExample;*/
+//export default NestingExample;*/
 
 function AuthExample(){
   return (
@@ -275,7 +275,7 @@ function PrivateRoute({ children, ...rest}) {
         )
       }
     />
-  );
+  ); 
 }
 
 function PublicPage() {

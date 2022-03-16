@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './container/Style.css';
 //import App from './App';
 //import ParamsExample from './App';
 //import NestingExample from './App';
-import AuthExample from './App';
+//import AuthExample from './App';
 import reportWebVitals from './reportWebVitals';
+import Main from './container/Main'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <AuthExample />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Main />, 
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
