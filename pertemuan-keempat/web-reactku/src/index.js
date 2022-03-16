@@ -5,9 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import BlogPost from "./container/Blogpost/BlogPost"
+import BlogPostMahasiswa from "./container/Blogpost/BlogPostMahasiswa"
 
-ReactDOM.render(<BlogPost />, document.getElementById('content'))
+ReactDOM.render(<BlogPostMahasiswa />, document.getElementById('content'))
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

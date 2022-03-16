@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./BlogMahasiswa.css";
-import Mahasiswa from "../../component/BlogMahasiswa/Mahasiswa";
+import "./BlogPost.css";
+import Mahasiswa from "../../component/BlogPost/mahasiswa";
 
 class BlogMahasiswa extends Component {
   state = {
