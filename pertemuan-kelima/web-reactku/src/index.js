@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 //import ParamsExample from './App';
-import NestingExample from './App';
+//import NestingExample from './App';
+import AuthExample from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NestingExample />
+    <AuthExample />
   </React.StrictMode>,
   document.getElementById('root')
 );
