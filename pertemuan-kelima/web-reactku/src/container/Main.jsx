@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route, NavLink, HashRouter } from "react-router-dom";
-import Dashboard from "./Dashboard";
-import List from "./List";
-import Contact from "./Contact";
+import Dashboard from "../component/Dashboard";
+import Data from "../component/Data";
+import Contact from "../component/Contact";
  
 class Main extends Component {
   render() {
@@ -12,12 +12,12 @@ class Main extends Component {
           <h1 className="title">Tokek - Toko Bokek</h1>
           <ul className="header">
             <li><NavLink to="/">Dashboard</NavLink></li>
-            <li><NavLink to="/List">List</NavLink></li>
+            <li><NavLink to="/data">Data Barang</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Dashboard}/>
-            <Route path="/List" component={List}/>
+            <Route path="/data" component={ Data } />
             <Route path="/contact" component={Contact}/>
           </div>
         </div>
