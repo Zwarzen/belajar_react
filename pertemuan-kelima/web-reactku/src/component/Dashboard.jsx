@@ -12,7 +12,7 @@ class Produk extends Component {
                         <div className="row justify-content-center text-center">
                             <div className="col-md-8 col-lg-12">
                                 <div className="header">
-                                    <center><h2><Link to="/newprod">Produk Terbaru</Link> || <Link to="/onsale">Produk Terpopuler</Link></h2></center>
+                                    <center><h2><Link to="/newprod">Produk Terbaru</Link> | <Link to="/onsale">Produk Terpopuler</Link></h2></center>
                                 </div>
                             </div>
                         </div>

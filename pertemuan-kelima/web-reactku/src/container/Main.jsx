@@ -15,6 +15,7 @@ class Main extends Component {
             <li><NavLink to="/">Dashboard</NavLink></li>
             {/* <li><NavLink to="/list">Barang Lainnya</NavLink></li> */}
             <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/account">Account</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Dashboard}/>
