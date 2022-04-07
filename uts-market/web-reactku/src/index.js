@@ -5,9 +5,11 @@ import App from './App';
 import Main from "./Main";
 import reportWebVitals from './reportWebVitals';
 import "./style.css";
+import ListPost from "./ListProduk/ListPost"
 
 ReactDOM.render(
-  <Main/>, 
+//<Main/>
+  <ListPost/>, 
   document.getElementById("root")
 );
 

@@ -1,0 +1,19 @@
+{
+    "produk": [
+      {
+        "id": 1,
+        "nama": "Oppo A5",
+        "harga": 200
+      },
+      {
+        "id": 2,
+        "nama": "Oppo K3",
+        "harga": 150
+      },
+      {
+        "id": 3,
+        "nama": "AC Toshiba",
+        "harga": 140
+      }
+    ]
+  }
