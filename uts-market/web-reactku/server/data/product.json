@@ -1,0 +1,51 @@
+{
+    "products": [
+        {
+            "category": ["phone"],
+            "sku": 398767043412656100,
+            "title": "Mobile phone jackson brand",
+            "description": " 8 GB RAM 64GB Memory",
+            "style": "Black slim sleek",
+            "price": 130,
+            "currencyId": "IDR",
+            "currencyFormat": "Rp",
+            "isFreeShipping": true
+        },
+        {
+            "category": ["phone"],
+            "id": 13,
+            "sku": 398767043412656101,
+            "title": "Mobile phone X1 brand",
+            "description": " 4 GB RAM 32GB Memory",
+            "style": "Front print and paisley print",
+            "price": 102,
+            "currencyId": "IDR",
+            "currencyFormat": "Rp",
+            "isFreeShipping": true
+        },
+        {
+            "category": ["Laptop"],
+            "id": 14,
+            "sku": 10686354557628303,
+            "title": "Dell Laptop Latitude Genuine",
+            "description": " 8 GB RAM 256GB SSD",
+            "style": "Black color 14 inch",
+            "price": 190,
+            "currencyId": "IDR",
+            "currencyFormat": "Rp",
+            "isFreeShipping": true
+        },
+        {
+            "category": ["Shoes"],
+            "id": 15,
+            "sku": 11033926921508487,
+            "title": " Mountain branded shoes",
+            "description": "very good condition genuine one,size: 9",
+            "style": "Green army color with sylish",
+            "price": 70,
+            "currencyId": "IDR",
+            "currencyFormat": "Rp",
+            "isFreeShipping": true
+        }
+    ]
+}

@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+import React from 'react';
+import Shelf from '../Shelf';
+import Filter from '../Shelf/Filter';
+import FloatCart from '../FloatCart';
+import Footer from '../Footer/index';
+import Header from '../Header/index';
+const App = () => (
+  <React.Fragment>
+    <Header />
+      <main>
+        <Filter />
+        <Shelf />
+      </main>
+    <FloatCart />
+    <Footer />
+    </React.Fragment>
+);
 export default App;

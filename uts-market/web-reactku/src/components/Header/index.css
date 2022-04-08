@@ -1,0 +1,9 @@
+.navigation{
+    background-color:black;
+    color:darkred;
+    height:60px;
+    width:100%;
+    margin-top: -60px;
+    /* background-image: url("https://www.w3schools.com/w3css/img_lights.jpg"); */
+    text-align: justify;
+    position: fixed;}
