@@ -5,6 +5,7 @@ import { withRouter } from "react-router-dom";
 import './Navigation.css';
 // import Logo from "../../media/logo.png";
 import CartWindow from '../cart-window/Cart-window';
+import Profiles from '../profile/Profiles';
 
 class Navigation extends Component {
 
@@ -54,9 +55,8 @@ class Navigation extends Component {
                 <div className="col-8 items">
                     <ul>
                         <li><Link to={`/`}>HOME</Link></li>
-                        <li>SHOP</li>
-                        <li>JOURNAL</li>
-                        <li>MORE</li>
+                        <li><Link to={`/Product`}>SHOP</Link></li>
+                        <li><Link to={`/Profiles`}>PROFILES</Link></li>
                     </ul>
                 </div>
                 <div className="col-2 cart-link">

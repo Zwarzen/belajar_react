@@ -9,6 +9,8 @@ import Product from "./components/product/Product";
 
 import Navigation from "./components/navigation/Navigation";
 import HomeContainer from "./components/home-container/Home-container";
+import Profiles from './components/profile/Profiles';
+import loginForm from './LoginForm/loginForm'
 
 
 class App extends Component {
@@ -21,6 +23,8 @@ class App extends Component {
           <Route path="/cart" component={Cart} />
           <Route path="/product/:id" component={Product} />
           <Route path="/category/:id" component={Category} />
+          <Route path="/profile/:id" component={Profiles} />
+          <Route path="/login/:id" component={loginForm}/>
       </div>
     );
   }
