@@ -27,7 +27,7 @@ class Product extends Component {
                     <div className="col-4 info">
                         <p className="brand">{this.props.products.products[this.state.id].brand}</p>
                         <p className="title">{this.props.products.products[this.state.id].title}</p>
-                        <CurrencyFormat value={this.props.products.products[this.state.id].price} displayType={'text'} thousandSeparator={true} prefix={'$'} renderText={value => <p className="price">{value}</p>} />
+                        <CurrencyFormat value={this.props.products.products[this.state.id].price} displayType={'text'} thousandSeparator={true} prefix={'Rp. '} renderText={value => <p className="price">{value}</p>} />
                         <p className="description">{this.props.products.products[this.state.id].description}</p>
                         <input type="number" name="quantity" min="1" max="100" class="form-control" defaultValue={this.state.count} onChange={this.updateCount.bind(this)} />
                         <AddToCartBtn count={this.state.count} product={this.props.products.products[this.state.id]}/>

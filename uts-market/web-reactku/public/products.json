@@ -4,69 +4,69 @@
     "brand": "Kiriko",
     "price": 2050000,
     "description": 15,
-    "image": "blue-stripe-stoneware-plate.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?android"
   },
   {
     "title": "Laptop",
     "brand": "Kiriko",
     "price": 2050000,
     "description": 20,
-    "image": "hand-painted-blue-flat-dish.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?laptop"
   },
   {
     "title": "Televisi/TV",
     "brand": "Dust & Form",
     "price": 5220500,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
-    "image": "heme.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?tv"
   },
   {
     "title": "AC",
     "brand": "Kiriko",
     "price": 2880000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-green-small-plate.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?airconditioner"
   },
   {
     "title": "Lemari ES",
     "brand": "Kiriko",
     "price": 9870000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-indigo-small-plate.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?fridge"
   },
   {
     "title": "Mesin Cuci",
     "brand": "Kiriko",
     "price": 7890000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-saucer.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?washingmachine"
   },
   {
     "title": "Setrika",
     "brand": "Kiriko",
     "price": 900000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-saucer.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?ironing"
   },
   {
     "title": "Kipas Angin",
     "brand": "Kiriko",
     "price": 600000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-saucer.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?fan"
   },
   {
     "title": "Rice Cooker",
     "brand": "Kiriko",
     "price": 1700000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-saucer.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?cooker"
   },
   {
     "title": "Oven",
     "brand": "Kiriko",
     "price": 8740000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-saucer.jpg"
+    "image": "https://source.unsplash.com/random/300x300/?oven"
   }
 ]

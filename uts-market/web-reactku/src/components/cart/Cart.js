@@ -38,7 +38,7 @@ class Cart extends Component {
                             <CartItem item={item} />
                         ) : <p>Your shopping cart is empty</p>}
                         {this.state.totalPrice > 0 ? <div className="total">
-                            {<CurrencyFormat value={this.state.totalPrice} displayType={'text'} thousandSeparator={true} prefix={'$'} renderText={value => <p className="price">Total: {value}</p>} />}
+                            {<CurrencyFormat value={this.state.totalPrice} displayType={'text'} thousandSeparator={true} prefix={'Rp. '} renderText={value => <p className="price">Total: {value}</p>} />}
                         </div> : null}
                     </div>
 

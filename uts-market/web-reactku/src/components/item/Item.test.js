@@ -16,11 +16,11 @@ describe('<Item />', () => {
         component.setProps({
             product:
             {
-                title: 'Blue Stripe Stoneware Plate',
+                title: 'Laptop',
                 brand: 'Kiriko',
                 price: 40,
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.',
-                image: 'blue-stripe-stoneware-plate.jpg'
+                image: 'https://source.unsplash.com/random/300x300/?laptop'
             }
         })
     })

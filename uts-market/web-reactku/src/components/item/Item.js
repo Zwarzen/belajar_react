@@ -15,7 +15,7 @@ const Item = (props) => {
             </div>
             <p className="brand">{props.product.brand}</p>
             <p className="title">{props.product.title}</p>
-            <CurrencyFormat value={props.product.price} displayType={'text'} thousandSeparator={true} prefix={'$'} renderText={value => <p className="price">{value}</p>} />
+            <CurrencyFormat value={props.product.price} displayType={'text'} thousandSeparator={true} prefix={'Rp. '} renderText={value => <p className="price">{value}</p>} />
 
         </div>
     )
