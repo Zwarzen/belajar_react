@@ -1,70 +1,70 @@
 [
   {
     "title": "Oppo A5",
-    "brand": "Kiriko",
+    "category": "Smartphone",
     "price": 2050000,
     "description": 15,
     "image": "https://source.unsplash.com/random/300x300/?android"
   },
   {
-    "title": "Laptop",
-    "brand": "Kiriko",
+    "title": "ASUS A15",
+    "category": "Laptop",
     "price": 2050000,
     "description": 20,
     "image": "https://source.unsplash.com/random/300x300/?laptop"
   },
   {
-    "title": "Televisi/TV",
-    "brand": "Dust & Form",
+    "title": "Sharp 24 inch",
+    "category": "Televisi/TV",
     "price": 5220500,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
     "image": "https://source.unsplash.com/random/300x300/?tv"
   },
   {
-    "title": "AC",
-    "brand": "Kiriko",
+    "title": "Toshiba A4567",
+    "category": "AC",
     "price": 2880000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "https://source.unsplash.com/random/300x300/?airconditioner"
   },
   {
-    "title": "Lemari ES",
-    "brand": "Kiriko",
+    "title": "Sharp C4590",
+    "category": "Lemari ES",
     "price": 9870000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "https://source.unsplash.com/random/300x300/?fridge"
   },
   {
-    "title": "Mesin Cuci",
-    "brand": "Kiriko",
+    "title": "Samsung G1459",
+    "category": "Mesin Cuci",
     "price": 7890000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "https://source.unsplash.com/random/300x300/?washingmachine"
   },
   {
-    "title": "Setrika",
-    "brand": "Kiriko",
+    "title": "Supera Setrika AR470",
+    "category": "Setrika",
     "price": 900000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "https://source.unsplash.com/random/300x300/?ironing"
   },
   {
-    "title": "Kipas Angin",
-    "brand": "Kiriko",
+    "title": "Kipas Angin Gajah A6623",
+    "category": "Kipas Angin",
     "price": 600000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "https://source.unsplash.com/random/300x300/?fan"
   },
   {
-    "title": "Rice Cooker",
-    "brand": "Kiriko",
+    "title": "Rice Cooker Sharp T9811",
+    "category": "Rice Cooker",
     "price": 1700000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "https://source.unsplash.com/random/300x300/?cooker"
   },
   {
-    "title": "Oven",
-    "brand": "Kiriko",
+    "title": "Oven Samsung K1569",
+    "category": "Oven",
     "price": 8740000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "https://source.unsplash.com/random/300x300/?oven"

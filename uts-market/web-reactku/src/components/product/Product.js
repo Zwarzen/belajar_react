@@ -25,7 +25,7 @@ class Product extends Component {
                         <img src={`../media/${this.props.products.products[this.state.id].image}`} alt={this.props.products.products[this.state.id].title} />
                     </div>
                     <div className="col-4 info">
-                        <p className="brand">{this.props.products.products[this.state.id].brand}</p>
+                        <p className="category">{this.props.products.products[this.state.id].category}</p>
                         <p className="title">{this.props.products.products[this.state.id].title}</p>
                         <CurrencyFormat value={this.props.products.products[this.state.id].price} displayType={'text'} thousandSeparator={true} prefix={'Rp. '} renderText={value => <p className="price">{value}</p>} />
                         <p className="description">{this.props.products.products[this.state.id].description}</p>

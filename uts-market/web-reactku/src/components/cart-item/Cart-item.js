@@ -26,7 +26,7 @@ class CartItem extends Component {
                         <img src={`./media/${this.props.item.product.image}`} alt={this.props.item.product.title} />
                     </div>
                     <div className="col-6">
-                        <p className="brand">{this.props.item.product.brand}</p>
+                        <p className="category">{this.props.item.product.category}</p>
                         <p className="title">{this.props.item.product.title}</p>
                         <CurrencyFormat value={this.props.item.product.price} displayType={'text'} thousandSeparator={true} prefix={'Rp. '} renderText={value => <p className="price">{value}</p>} />
                     </div>
