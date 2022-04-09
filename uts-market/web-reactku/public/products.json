@@ -1,43 +1,71 @@
 [
   {
-    "title": "Blue Stripe Stoneware Plate",
+    "title": "Oppo A5",
     "brand": "Kiriko",
-    "price": 40,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "price": 2050000,
+    "description": 15,
     "image": "blue-stripe-stoneware-plate.jpg"
   },
   {
-    "title": "Hand Painted Blue Flat Dish",
+    "title": "Laptop",
     "brand": "Kiriko",
-    "price": 28,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
+    "price": 2050000,
+    "description": 20,
     "image": "hand-painted-blue-flat-dish.jpg"
   },
   {
-    "title": "Heme",
+    "title": "Televisi/TV",
     "brand": "Dust & Form",
-    "price": 52,
+    "price": 5220500,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
     "image": "heme.jpg"
   },
   {
-    "title": "Mashiko-Yaki Green Small Plate",
+    "title": "AC",
     "brand": "Kiriko",
-    "price": 28,
+    "price": 2880000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "mashiko-yaki-green-small-plate.jpg"
   },
   {
-    "title": "Mashiko-Yaki Indigo Small Plate",
+    "title": "Lemari ES",
     "brand": "Kiriko",
-    "price": 28,
+    "price": 9870000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "mashiko-yaki-indigo-small-plate.jpg"
   },
   {
-    "title": "Mashiko-Yaki Saucer",
+    "title": "Mesin Cuci",
     "brand": "Kiriko",
-    "price": 18,
+    "price": 7890000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "mashiko-yaki-saucer.jpg"
+  },
+  {
+    "title": "Setrika",
+    "brand": "Kiriko",
+    "price": 900000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "mashiko-yaki-saucer.jpg"
+  },
+  {
+    "title": "Kipas Angin",
+    "brand": "Kiriko",
+    "price": 600000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "mashiko-yaki-saucer.jpg"
+  },
+  {
+    "title": "Rice Cooker",
+    "brand": "Kiriko",
+    "price": 1700000,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "mashiko-yaki-saucer.jpg"
+  },
+  {
+    "title": "Oven",
+    "brand": "Kiriko",
+    "price": 8740000,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
     "image": "mashiko-yaki-saucer.jpg"
   }

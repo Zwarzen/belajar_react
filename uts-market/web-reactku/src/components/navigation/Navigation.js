@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { withRouter } from "react-router-dom";
 import './Navigation.css';
-import Logo from "../../media/logo.png";
+// import Logo from "../../media/logo.png";
 import CartWindow from '../cart-window/Cart-window';
 
 class Navigation extends Component {
@@ -50,7 +50,7 @@ class Navigation extends Component {
     render() {
         return (
             <div className="navigation row">
-                <img src={Logo} className="col-2 logo" />
+                {/* <img src={Logo} className="col-2 logo" /> */}
                 <div className="col-8 items">
                     <ul>
                         <li><Link to={`/`}>HOME</Link></li>

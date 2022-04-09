@@ -41,3 +41,9 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 );
+
+// library yang digunakan :
+// react-curency-format 
+// react-redux
+// redux-thunk
+// axios

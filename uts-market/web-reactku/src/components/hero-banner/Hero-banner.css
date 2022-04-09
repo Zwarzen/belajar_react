@@ -2,7 +2,8 @@
     height: 250px;
     padding: 20px;
     color: white;
-    background-image: url("../../media/plates-header.jpg");
+    background-image: blue;  
+    /* url("https://blogs.nvidia.com/wp-content/uploads/2021/01/list-MSI_Creator_15_studio_blog-400x400.jpg"); */
     background-repeat: no-repeat, repeat;
     background-size: 260%;
     background-position-y: 40%;
@@ -12,7 +13,8 @@
     height: 250px;
     padding: 20px;
     color: white;
-    background-image: url("../../media/plates-header.jpg");
+    background-image: blue;
+    /* url("https://blogs.nvidia.com/wp-content/uploads/2021/01/list-MSI_Creator_15_studio_blog-400x400.jpg"); */
     background-repeat: no-repeat, repeat;
     background-size: 260%;
     background-position-y: 40%;

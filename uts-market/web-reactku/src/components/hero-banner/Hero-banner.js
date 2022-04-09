@@ -7,8 +7,8 @@ const HeroBanner = () => {
         <div className="hero-banner row">
             <div className="col-3 left-banner"></div>
             <div className="text col-6 ">
-                <h1>Plates</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus.</p>
+                <h1>Neo Online Shop</h1>
+                <p>Welcome to our Shop!</p>
             </div>
             <div className="col-3 right-banner"></div>
         </div>
