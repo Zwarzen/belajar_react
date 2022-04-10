@@ -7,7 +7,7 @@ class CartItem extends Component {
 
     state = {
         data: this.props,
-        imageWidth: this.props.small ? 'col-4' : 'col-2'
+        imageWidth: this.props.small ? 'col-2' : 'col-2'
     };
 
     updateCount(event) {

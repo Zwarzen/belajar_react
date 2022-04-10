@@ -6,7 +6,7 @@ import './Item.css';
 
 const Item = (props) => {
     return (
-        <div className="col-4 item">
+        <div className="item">
             <div className="img-wrap">
                 <img src={props.product.image} alt={props.product.title}/>
                 <button type="button" class="view-btn btn" to="`/product/${props.product.title}`"><Link to={`/product/${props.index}`}>VIEW DETAILS</Link></button>
