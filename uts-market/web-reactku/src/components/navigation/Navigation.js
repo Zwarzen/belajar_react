@@ -52,14 +52,14 @@ class Navigation extends Component {
         return (
             <div className="navigation row">
                 {/* <img src={Logo} className="col-2 logo" /> */}
-                <div className="col-8 items">
+                <div className="col-3 items">
                     <ul>
                         <li><Link to={`/`}>HOME</Link></li>
                         <li><Link to={`/Product`}>SHOP</Link></li>
                         <li><Link to={`/Profiles`}>PROFILES</Link></li>
                     </ul>
                 </div>
-                <div className="col-2 cart-link">
+                <div className="col-1 cart-link">
                     <p><Link to={`/cart`}>MY CART(<span>{this.state.count}</span>)</Link></p>
                     {this.state.openCartWindow ? <div className="cart-window-wrap">
                         <CartWindow products={this.props.cartItems.products} />

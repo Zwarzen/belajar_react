@@ -33,9 +33,12 @@ ul {
 .cart-link {
     padding: 20px 0 0;
     font-weight: bold;
-    position: relative;
+    position: absolute;
     text-align: right;
-    padding-right: 30px;
+    margin-left: 90%;
+    float: right;
+    
+    
 }
 
 .cart-window-wrap {

@@ -22,7 +22,7 @@ class CartItem extends Component {
         return (
             <div>
                 {this.props.item ? <div className="cart-item row">
-                    <div className={`img-wrap col-4 ${this.state.imageWidth}`}>
+                    <div className={`img-wrap col-2 ${this.state.imageWidth}`}>
                         <img src={this.props.item.product.image} alt={this.props.item.product.title} />
                     </div>
                     <div className="col-6">
