@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { withRouter } from "react-router-dom";
 import './Navigation.css';
-import Logo from "../../media/logo.png";
+// import Logo from "../../media/logo.png";
 import CartWindow from '../cart-window/Cart-window';
 
 class Navigation extends Component {
