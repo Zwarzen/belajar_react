@@ -25,7 +25,7 @@ const store = createStore(rootReducer, enhancers);
 
 store.dispatch((dispatch) => {
     dispatch({ type: 'FETCH_ITEMDATA_START' });
-    axios.get('./products.json')
+    axios.get('./listProduk.json')
         .then((res) => {
             dispatch({ type: 'FETCH_ITEMDATA_SUCCESS', payload: res.data });
         }).catch((err) => {
