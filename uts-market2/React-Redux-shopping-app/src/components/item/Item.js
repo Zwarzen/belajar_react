@@ -15,6 +15,7 @@ const Item = (props) => {
             </div>
             <p className="category">{props.product.category}</p>
             <p className="title">{props.product.title}</p>
+            <p className="stok">Stok : {props.product.stok}</p>
             <CurrencyFormat value={props.product.price} displayType={'text'} thousandSeparator={true} prefix={'Rp. '} renderText={value => <p className="price">{value}</p>} />
 
         </div>
