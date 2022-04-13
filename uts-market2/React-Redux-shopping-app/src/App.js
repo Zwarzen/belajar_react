@@ -10,6 +10,7 @@ import Profiles from "./components/profile/Profiles";
 
 import Navigation from "./components/navigation/Navigation";
 import HomeContainer from "./components/home-container/Home-container";
+import ShopList from "./components/shop-list/ShopList";
 
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
           <Route exact path="/" component={HomeContainer} />
           <Route path="/cart" component={Cart} />
           <Route path="/product/:id" component={Product} />
-          <Route path="/category/:id" component={Category} />
+          <Route path="/shoplist" component={ShopList} />
           <Route path="/profiles" component={Profiles} />
       </div>
     );

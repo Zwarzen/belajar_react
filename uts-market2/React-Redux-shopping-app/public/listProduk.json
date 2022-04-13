@@ -1,45 +1,25 @@
 [
+
   {
-    "title": "Oppo A5",
-    "category": "Smartphone",
-    "price": 2050000,
-    "stok": 15,
-    "image": "https://source.unsplash.com/random/300x300/?android"
-  },
-  {
-    "title": "ASUS A15",
-    "category": "Laptop",
-    "price": 2050000,
-    "stok": 20,
-    "image": "https://source.unsplash.com/random/300x300/?laptop"
-  },
-  {
-    "title": "Sharp 24 inch",
-    "category": "Televisi/TV",
-    "price": 5220500,
-    "stok": 15,
-    "image": "https://source.unsplash.com/random/300x300/?tv"
-  },
-  {
-    "title": "Toshiba A4567",
-    "category": "AC",
+    "title": "Setrika Toshiba A4567",
+    "category": "Setrika",
     "price": 2880000,
     "stok": 15,
-    "image": "https://source.unsplash.com/random/300x300/?airconditioner"
+    "image": "https://source.unsplash.com/random/300x300/?ironing"
   },
   {
-    "title": "Sharp C4590",
-    "category": "Lemari ES",
+    "title": "Setrika Sharp C4590",
+    "category": "Setrika",
     "price": 9870000,
     "stok": 15,
-    "image": "https://source.unsplash.com/random/300x300/?fridge"
+    "image": "https://source.unsplash.com/random/300x300/?clothes"
   },
   {
-    "title": "Samsung G1459",
-    "category": "Mesin Cuci",
+    "title": "Setrika Samsung G1459",
+    "category": "Setrika",
     "price": 7890000,
     "stok": 15,
-    "image": "https://source.unsplash.com/random/300x300/?washingmachine"
+    "image": "https://source.unsplash.com/random/300x300/?ironing"
   },
   {
     "title": "Supera Setrika AR470",
@@ -49,24 +29,24 @@
     "image": "https://source.unsplash.com/random/300x300/?ironing"
   },
   {
-    "title": "Kipas Angin Gajah A6623",
-    "category": "Kipas Angin",
+    "title": "Setrika Gajah A6623",
+    "category": "Setrika",
     "price": 600000,
     "stok": 15,
-    "image": "https://source.unsplash.com/random/300x300/?fan"
+    "image": "https://source.unsplash.com/random/300x300/?ironing"
   },
   {
-    "title": "Rice Cooker Sharp T9811",
-    "category": "Rice Cooker",
+    "title": "Setrika Sharp T9811",
+    "category": "Setrika",
     "price": 1700000,
     "stok": 15,
-    "image": "https://source.unsplash.com/random/300x300/?cooker"
+    "image": "https://source.unsplash.com/random/300x300/?ironing"
   },
   {
-    "title": "Oven Samsung K1569",
-    "category": "Oven",
+    "title": "Setrika Samsung K1569",
+    "category": "Setrika",
     "price": 8740000,
     "stok": 15,
-    "image": "https://source.unsplash.com/random/300x300/?oven"
+    "image": "https://source.unsplash.com/random/300x300/?ironing"
   }
 ]

@@ -54,7 +54,7 @@ class Navigation extends Component {
                 <div className="col-8 items">
                 <ul>
                         <li><Link to={`/`}>HOME</Link></li>
-                        <li><Link to={`/Product`}>SHOP</Link></li>
+                        <li><Link to={`/ShopList`}>SHOP</Link></li>
                         <li><Link to={`/Profiles`}>PROFILE</Link></li>
                     </ul>
                 </div>

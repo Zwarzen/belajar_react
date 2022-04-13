@@ -13,7 +13,10 @@ class HomeContainer extends Component {
         return (
             <div className="home-container">
                 <HeroBanner />
-                {this.props.products.products.length > 0 ? <ItemList products={this.props.products.products} /> : null}
+                {/* <div className='item'>
+                    <img src='https://source.unsplash.com/random/300x300/?ironing'></img>
+                    <p>Selamat Datang di Online Shop kami!</p>
+                </div> */}
             </div>
         );
     }
