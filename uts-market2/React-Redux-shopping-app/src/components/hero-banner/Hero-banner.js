@@ -12,6 +12,7 @@ const HeroBanner = () => {
             </div>
             <div className="col-3 right-banner"></div>
         </div>
+
     );
 
 }
