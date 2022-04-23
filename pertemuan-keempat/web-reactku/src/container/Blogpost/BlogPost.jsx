@@ -3,8 +3,14 @@ import './BlogPost.css';
 import Post from "../../component/BlogPost/post";
 
 class BlogPost extends Component{
-    /*state ={
-        listArtikel: []
+    /*state = {
+        listArtikel: [],
+        insertArtikel: {
+            userId: 1,
+            id: 1,
+            title: "",
+            body: ""
+        }
     }
 
     ambilDataDariServerAPI = () => {
