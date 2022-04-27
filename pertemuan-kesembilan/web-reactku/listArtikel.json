@@ -534,12 +534,6 @@
       "title": "quas fugiat ut perspiciatis vero provident",
       "body": "eum non blanditiis soluta porro quibusdam voluptas\nvel voluptatem qui placeat dolores qui velit aut\nvel inventore aut cumque culpa explicabo aliquid at\nperspiciatis est et voluptatem dignissimos dolor itaque sit nam"
     },
-    {
-      "userId": 1,
-      "id": 1647266032316,
-      "title": "Buku Pemrograman React JS",
-      "body": "Berisi tentang pembelajaran React JS"
-    },
     [
       {
         "userId": 1,
@@ -1105,7 +1099,13 @@
         "title": "dolorem dolore est ipsam",
         "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
       }
-    ]
+    ],
+    {
+      "userId": 1,
+      "id": 1651026811153,
+      "title": "Percobaan 1",
+      "body": "ini hasil percobaan 1"
+    }
   ],
   "comments": [],
   "profile": {

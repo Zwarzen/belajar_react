@@ -4,9 +4,9 @@ const DeleteAPI = (path, data) => {
     const promise = new Promise((resolve, reject) => {
         fetch(`${domainPath}/${path}/${data}`, { method: 'DELETE' })
             .then((result) => {
-                resolve(result);
+                resolve(result)
             }, (err) => {
-                reject(err);
+                reject(err)
             })
     })
     return promise;

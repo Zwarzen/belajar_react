@@ -5,9 +5,9 @@ const GetAPI = (path) => {
         fetch(`${domainPath}/${path}`)
             .then(response => response.json())
             .then((result) => {
-                resolve(result);
+                resolve(result)
             }, (err) => {
-                reject(err);
+                reject(err)
             })
     })
     return promise;
