@@ -1,0 +1,33 @@
+[debug] [2022-05-18T03:16:57.168Z] ----------------------------------------------------------------------
+[debug] [2022-05-18T03:16:57.170Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Risang\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-05-18T03:16:57.170Z] CLI Version:   10.9.2
+[debug] [2022-05-18T03:16:57.170Z] Platform:      win32
+[debug] [2022-05-18T03:16:57.170Z] Node Version:  v16.15.0
+[debug] [2022-05-18T03:16:57.173Z] Time:          Wed May 18 2022 10:16:57 GMT+0700 (Indochina Time)
+[debug] [2022-05-18T03:16:57.173Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-18T03:16:57.228Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-18T03:16:57.229Z] > authorizing via signed-in user (1941720166@student.polinema.ac.id)
+[debug] [2022-05-18T03:16:57.229Z] [iam] checking project pert11-f4a23 for permissions ["firebase.projects.get"]
+[debug] [2022-05-18T03:16:57.230Z] > refreshing access token with scopes: []
+[debug] [2022-05-18T03:16:57.230Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-18T03:16:57.398Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 18 May 2022 03:16:58 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-18T03:16:57.404Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/pert11-f4a23:testIamPermissions [none]
+[debug] [2022-05-18T03:16:57.405Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/pert11-f4a23:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-18T03:16:58.509Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/pert11-f4a23:testIamPermissions 200
+[debug] [2022-05-18T03:16:58.509Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/pert11-f4a23:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-18T03:16:58.510Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pert11-f4a23 [none]
+[debug] [2022-05-18T03:16:58.865Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pert11-f4a23 200
+[debug] [2022-05-18T03:16:58.865Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pert11-f4a23 {"projectId":"pert11-f4a23","projectNumber":"932477736613","displayName":"pert11","name":"projects/pert11-f4a23","resources":{"hostingSite":"pert11-f4a23","realtimeDatabaseInstance":"pert11-f4a23-default-rtdb","storageBucket":"pert11-f4a23.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'C:\Users\Risang\Documents\PBF_Repo\belajar_react\pertemuan-kesebelas\web-reactku'...
+[info] 
+[debug] [2022-05-18T03:16:58.867Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/pert11-f4a23/sites 
+[debug] [2022-05-18T03:17:00.349Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/pert11-f4a23/sites 200
+[debug] [2022-05-18T03:17:00.349Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/pert11-f4a23/sites {"sites":[{"name":"projects/pert11-f4a23/sites/pert11-f4a23","defaultUrl":"https://pert11-f4a23.web.app","appId":"1:932477736613:web:4695c10588357947d25f4c","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-18T03:17:00.349Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pert11-f4a23/webApps/1:932477736613:web:4695c10588357947d25f4c/config [none]
+[debug] [2022-05-18T03:17:01.614Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pert11-f4a23/webApps/1:932477736613:web:4695c10588357947d25f4c/config 200
+[debug] [2022-05-18T03:17:01.614Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pert11-f4a23/webApps/1:932477736613:web:4695c10588357947d25f4c/config {"projectId":"pert11-f4a23","appId":"1:932477736613:web:4695c10588357947d25f4c","databaseURL":"https://pert11-f4a23-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"pert11-f4a23.appspot.com","locationId":"us-central","apiKey":"AIzaSyDhF3McGx8Z9rLciDGBb8_OxvDxamL4mIg","authDomain":"pert11-f4a23.firebaseapp.com","messagingSenderId":"932477736613","measurementId":"G-DQV7JHLNL4"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
