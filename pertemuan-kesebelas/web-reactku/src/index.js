@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import React from 'react';
 import './index.css';
 import Root from "./Root";
