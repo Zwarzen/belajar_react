@@ -1,14 +1,12 @@
-import ReactDOM from "react-dom";
-import React from 'react';
-import './index.css';
-import Root from "./Root";
 import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import Root from "./Root";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.render(<Root />, document.getElementById("root"));
 
-    <Root />
-
-);
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
 
 reportWebVitals();
