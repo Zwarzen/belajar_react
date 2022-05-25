@@ -24,11 +24,12 @@ const firebaseConfig = {
 
   messagingSenderId: "932477736613",
 
-  appId: "1:932477736613:web:4695c10588357947d25f4c",
+  appId: "1:932477736613:web:004e3026c1cc69b2d25f4c",
 
-  measurementId: "G-DQV7JHLNL4"
+  measurementId: "G-CVFW2K7Y6P"
 
 };
+
 
 // Initialize Firebase
 export const myFirebase = firebase.initializeApp(firebaseConfig);

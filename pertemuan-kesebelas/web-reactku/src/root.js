@@ -13,4 +13,5 @@ function Root() {
             </Router>
         </Provider>
     );
-} export default Root;
+} 
+export default Root;
