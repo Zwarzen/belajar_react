@@ -17,8 +17,8 @@ const firebaseConfig = {
   projectId: "pert11-f4a23",
   storageBucket: "pert11-f4a23.appspot.com",
   messagingSenderId: "932477736613",
-  appId: "1:932477736613:web:004e3026c1cc69b2d25f4c",
-  measurementId: "G-CVFW2K7Y6P"
+  appId: "1:932477736613:web:4695c10588357947d25f4c",
+  measurementId: "G-DQV7JHLNL4"
 };
 
 // Initialize Firebase
