@@ -1,4 +1,4 @@
-import { domainPath } from "./Config";
+import { domainPath } from "./Config"
 
 const PostAPI = (path, data) => {
     const promise = new Promise((resolve, reject) => {
@@ -10,12 +10,12 @@ const PostAPI = (path, data) => {
             },
             body: JSON.stringify(data)
         }).then((result) => {
-                resolve(result)
-            }).catch(err => {
-                reject(err)
-            })
+            resolve(result)
+        }).catch(err => {
+            reject(err)
+        })
     })
     return promise;
 }
 
-export default PostAPI;
+export default PostAPI

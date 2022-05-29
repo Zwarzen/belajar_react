@@ -1,16 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import BlogPost from './container/Blog Post/BlogPost';
+import Root from './root';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <BlogPost/>
-  </React.StrictMode>,
-  document.getElementById('content')
+    <Root />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
