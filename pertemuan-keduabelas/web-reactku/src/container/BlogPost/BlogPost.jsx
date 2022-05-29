@@ -1,26 +1,26 @@
 import React, { Component } from "react";
 import Post from "../../components/Post";
 import './BlogPost.css';
-import API from "../../services";
-
+// import API from "../../services";
+import firebase from "../../firebase";
+import firebaseConfig from "../../firebase/config";
 
 class BlogPost extends Component {
 
-    state = {
-        listArtikel: [],
-        insertArtikel: {
-            userId: 1,
-            id: 1,
-            title: "",
-            body: ""
+    constructor(props) {
+        super(props);
+        firebase.initializeApp(firebaseConfig);
+
+        this.state = {
+            listArtikel: []
         }
     }
 
     ambilDataDariServerAPI = () => {
-        API.getNewsBlog().then(result => {
-            this.setState({
-                listArtikel: result
-            })
+        let ref = firebase.database().ref("/");
+        ref.on("value", snapshot => {
+            const state = snapshot.val();
+            this.setState(state);
         })
     }
 
