@@ -24,35 +24,60 @@ class BlogPost extends Component {
         })
     }
 
+    simpanDataDariServerAPI = () => {
+        firebase.database()
+        .ref("/")
+        .set(this.state);
+    }
+
     componentDidMount() {
         this.ambilDataDariServerAPI()
     }
 
-    handleHapusArtikel = (data) => {
-        API.deleteNewsBlog(data)
-            .then((response) => {
-                this.ambilDataDariServerAPI();
-            });
+    componentDidUpdate(prevProps, prevState) {
+        if (prevState !== this.state){
+            this.simpanDataDariServerAPI();
+        }
     }
 
-    handleTambahArtikel = (event) => {
-        let formInsertArtikel = { ...this.state.insertArtikel };
-        let timestamp = new Date().getTime();
-        formInsertArtikel['id'] = timestamp;
-        formInsertArtikel[event.target.name] = event.target.value;
-        this.setState({
-            insertArtikel: formInsertArtikel
+    handleHapusArtikel = (idArtikel) => {
+        const {listArtikel} = this.state;
+        const newState = listArtikel.filter(data => {
+            return data.uid !== idArtikel;
         });
+        this.setState({listArtikel: newState});
     }
 
-    handleTombolSimpan = () => {
+    // handleTombolSimpan = () => {
 
-        API.postNewsBlog(this.state.insertArtikel)
-            .then((response) => {
-                this.ambilDataDariServerAPI();
+    //     this.refs.judulArtikel.value = "";
+    //     this.refs.isiArtikel.value = "";
+    //     this.refs.uid.value = "";
+
+    // }
+
+    handleTombolSimpan = (event) => {
+        let title = this.refs.judulArtikel.value;
+        let body = this.refs.isiArtikel.value;
+        let uid = this.refs.uid.value;
+
+        if(uid && title && body) {
+            const { listArtikel } = this.state;
+            const indeksArtikel = listArtikel.findIndex(data => {
+                return data.uid === uid;
             });
 
+            listArtikel[indeksArtikel].title = title;
+            listArtikel[indeksArtikel].body = body;
+            this.setState({ listArtikel });
+        }
+
+        this.refs.judulArtikel.value = "";
+        this.refs.isiArtikel.value = "";
+        this.refs.uid.value = "";
     }
+    
+    
 
     render() {
         return (
@@ -61,17 +86,18 @@ class BlogPost extends Component {
                     <div className='form-group row'>
                         <label htmlFor="title" className='col-sm-2 col-form-label'>Judul</label>
                         <div className='col-sm-10'>
-                            <input type="text" className="form-control" id="title" name="title" onChange={this.handleTambahArtikel} />
+                            <input type="text" className="form-control" id="title" name="title" ref="judulArtikel" />
                         </div>
                     </div>
                     <div className='form-group row'>
                         <label htmlFor="body" className='col-sm-2 col-form-label'>Isi</label>
                         <div className='col-sm-10'>
-                            <textarea className='form-control' id='body' name='body' rows='3' onChange={this.handleTambahArtikel}></textarea>
+                            <textarea className='form-control' id='body' name='body' rows='3' ref="isiArtikel"></textarea>
                         </div>
                     </div>
                     <button type='submit' className='btn btn-primary' onClick={this.handleTombolSimpan}>Simpan</button>
                 </div>
+
                 <h2>Daftar Artikel</h2>
                 {
                     this.state.listArtikel.map(artikel => {
