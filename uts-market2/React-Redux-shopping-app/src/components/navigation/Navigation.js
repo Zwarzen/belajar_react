@@ -53,9 +53,10 @@ class Navigation extends Component {
                 {/* <img src={Logo} className="col-2 logo" /> */}
                 <div className="col-8 items">
                 <ul>
-                        <li><Link to={`/`}>HOME</Link></li>
-                        <li><Link to={`/ShopList`}>SHOP</Link></li>
-                        <li><Link to={`/Profiles`}>PROFILE</Link></li>
+                        <li><Link to={`/herobanner`}>HOME</Link></li>
+                        <li><Link to={`/shoplist`}>SHOP</Link></li>
+                        <li><Link to={`/profiles`}>PROFILE</Link></li>
+                        <li><Link to={`/`}>SIGN OUT</Link></li>
                     </ul>
                 </div>
                 <div className="col-2 cart-link">

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import CurrencyFormat from 'react-currency-format';
 import AddToCartBtn from '../add-to-cart-btn/Add-to-cart-btn';
 import './Product.css';
+import Navigation from '../navigation/Navigation';
 
 class Product extends Component {
     constructor(props) {
